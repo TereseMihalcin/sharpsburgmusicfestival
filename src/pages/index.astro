@@ -1,6 +1,8 @@
 ---
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/global.css';
+import Schedule from '../components/schedule.astro';
+import Navigation from '../components/navigation.astro';
 ---
 
 <html lang="en">
@@ -10,30 +12,19 @@ import '../styles/global.css';
 		<link rel="icon" href="/favicon.ico" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Sharpsburg Music Festival</title>
+		<title>Sharpsburg Summer Jam</title>
 	</head>
 	<body>
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-			<div class="container-fluid">
-			  <a class="navbar-brand" href="#">Sharpsburg Music Fest</a>
-			  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			  </button>
-			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-				  <li class="nav-item">
-					<a class="nav-link active" aria-current="page" href="#">Home</a>
-				  </li>
-				  <li class="nav-item">
-					<a class="nav-link" href="#">Schedule</a>
-				  </li>
-				  <li class="nav-item">
-					<a class="nav-link" href="#">About</a>
-				  </li>
-				</ul>
-			  </div>
-			</div>
-		  </nav>
-		<h1 class="text-center pt-5">Sharpsburg Music Festival</h1>
+		<Navigation />
+		<h1 class="text-center pt-5 text-uppercase">Sharpsburg Summer Jam</h1>
+		<p class="text-center mt-2 fs-2">Saturday September 19th, 2026</p>
+		<p class="text-center mt-2 m-0">1:00 PM – 7:00 PM, followed by the Sharpsburg Bicentennial Drone Show</p>
+		<p class="text-center mt-2 m-0">Kennedy Park, N. Canal Street, Sharpsburg, PA, 15215</p>
+		<p class="text-center mt-2 m-0">Free and Open to the Public</p>
+		<h2 class="text-center pt-5">Schedule of Events</h2>
+		<Schedule />
+		<script>
+			import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+		</script>
 	</body>
 </html>
