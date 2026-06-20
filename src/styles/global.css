@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Peralta&display=swap');
+
+body {
+    background-color: #d2e2fb;
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-family: "Peralta", serif;
+}
+.navbar-brand {
+    font-family: "Peralta", serif;
+}
