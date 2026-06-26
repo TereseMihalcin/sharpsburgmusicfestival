@@ -18,8 +18,7 @@ h1 {
     .schedule .row > .card {
       margin-left: 1rem;
     }
-  }
-  
+}
 .card {
     z-index: 2;
     border: unset;
@@ -51,4 +50,20 @@ h1 {
 }
 .row hr {
     margin-top: -73px;
+}
+div.art {
+    background-image: url('../assets/Sharpsburg5.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 1100px;
+}
+@media (max-width: 574px) {
+    div.art {
+        height: 500px;
+        background-position: right;
+    }
+}
+.intro {
+    padding-top: 8rem;
 }
