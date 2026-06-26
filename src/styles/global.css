@@ -9,11 +9,17 @@ h1, h2, h3, h4, h5 {
     font-family: "Candal", sans-serif;
 }
 h1 {
-    font-size: 3.5rem;
+    font-size: 3.0rem;
 }
 .navbar-brand {
     font-family: "Candal", sans-serif;
 }
+@media (max-width: 574px) {
+    .schedule .row > .card {
+      margin-left: 1rem;
+    }
+  }
+  
 .card {
     z-index: 2;
     border: unset;
@@ -42,4 +48,7 @@ h1 {
 .card .card-text {
     text-align: center;
     width: fit-content;
+}
+.row hr {
+    margin-top: -73px;
 }

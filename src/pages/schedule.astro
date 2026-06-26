@@ -4,9 +4,22 @@ import '../styles/global.css';
 import Sched from '../components/schedule.astro';
 import Navigation from '../components/navigation.astro';
 ---
-<Navigation />
-<h1 class="text-center pt-5">Schedule of Events</h1>
-<Sched/>
-<script>
-    import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-</script>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="icon" href="/favicon.ico" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Sharpsburg Summer Jam</title>
+	</head>
+    <body>
+        <Navigation />
+        <h1 class="text-center pt-5">Schedule of Events</h1>
+        <Sched/>
+        <script>
+            import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+        </script>
+    </body>
+</html>
