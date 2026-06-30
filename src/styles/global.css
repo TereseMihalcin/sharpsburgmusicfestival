@@ -72,11 +72,18 @@ div.art {
         margin-bottom: .5rem !important;
     }
     .intro h1 {
-        margin-top: 0.5rem !important;
-        font-size: 2rem !important;
+        margin-top: 1.5rem !important;
+        font-size: 1.5rem !important;
     }
-    .intro p.date {
-        font-size: 1rem !important;
+    .intro .info p {
+        font-size: .9rem !important;
+        margin-bottom: unset;
+    }
+    .navbar .navbar-brand {
+        display: none;
+    }
+    .footer {
+        justify-content: center;
     }
 }
 div.art .celebrate {
