@@ -52,18 +52,48 @@ h1 {
     margin-top: -73px;
 }
 div.art {
-    background-image: url('../assets/Sharpsburg5.png');
+    background-image: url('../assets/Sharpsburg4.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 1100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
 }
 @media (max-width: 574px) {
     div.art {
-        height: 500px;
-        background-position: right;
+        height: 500px !important;
+        background-position: right !important;
+    }
+    div.art .celebrate {
+        font-size: 2rem !important;
+        margin-bottom: .5rem !important;
+    }
+    .intro h1 {
+        margin-top: 0.5rem !important;
+        font-size: 2rem !important;
+    }
+    .intro p.date {
+        font-size: 1rem !important;
     }
 }
+div.art .celebrate {
+    margin-bottom: 1rem;
+    color: #9bcd03;
+}
 .intro {
-    padding-top: 8rem;
+    /* padding-top: 8rem; */
+}
+.intro h1 {
+    font-size: 4rem;
+    margin-top: 8rem;
+}
+.footer {
+    background-color: #f3f2d3;
+}
+.footer img {
+    padding: 1rem;
+    max-width: 300px;
 }

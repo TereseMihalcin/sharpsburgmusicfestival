@@ -4,7 +4,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/global.css';
 import Schedule from '../components/schedule.astro';
 import Navigation from '../components/navigation.astro';
-import Art from '../assets/Sharpsburg5.png';
+import Art from '../assets/Bicentennial-Founded-1826.jpg';
+
 ---
 
 <html lang="en">
@@ -19,17 +20,24 @@ import Art from '../assets/Sharpsburg5.png';
 	<body>
 		<Navigation />
 		<div class="art">
+			
 			<div class="intro">
 				<h1 class="text-center text-uppercase">Sharpsburg Summer Jam</h1>
-				<p class="text-center mt-2 fs-2">Saturday September 19th, 2026</p>
+				<p class="date text-center mt-2 fs-2">Saturday September 19th, 2026</p>
 				<p class="text-center mt-2 m-0">1:00 PM – 7:00 PM, followed by the Sharpsburg Bicentennial Drone Show</p>
 				<p class="text-center mt-2 m-0">Kennedy Park, N. Canal Street, Sharpsburg, PA, 15215</p>
 				<p class="text-center mt-2 m-0">Free and Open to the Public</p>
+			</div>
+			<div class="celebrate">
+				<p class="text-center fs-1">Celebrating 200 Years of Sharpsburg</p>
 			</div>
 		</div>
 		<!-- <img src={Art.src} alt="vdsvd" style="max-width:100%;"/>  -->
 		<h2 class="text-center mt-5">Schedule of Events</h2>
 		<Schedule />
+		<div class="footer">
+			<img src={Art.src} />
+		</div>
 
 		<script>
 			import 'bootstrap/dist/js/bootstrap.bundle.min.js';
