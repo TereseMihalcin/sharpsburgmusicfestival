@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Peralta&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Candal&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Gothic+Condensed+One&display=swap');
 
+:root {
+    --background: #f7faee;
+    --light-teal: #c7f6e8;
+    --medium-green: #009d31;
+    --dark-green: #005d23; 
+    --yellow-green: #9bcd03;
+}
 body {
     background-color: #f7faee;
 }
@@ -8,11 +16,15 @@ body {
 h1, h2, h3, h4, h5 {
     font-family: "Candal", sans-serif;
 }
+.intro p {
+    font-family: "Special Gothic Condensed One", sans-serif;
+}
 h1 {
     font-size: 3.0rem;
 }
 .navbar-brand {
     font-family: "Candal", sans-serif;
+    color: var(--medium-green);
 }
 @media (max-width: 574px) {
     .schedule .row > .card {
@@ -40,7 +52,7 @@ h1 {
 .card .card-title {
     width: fit-content;
     padding: .5rem;
-    background-color: #f3f2d3;
+    background-color: var(--light-teal);
     border-radius: 1rem;
     margin: .5rem;
 }
@@ -67,20 +79,22 @@ div.art {
         height: 500px !important;
         background-position: right !important;
     }
-    div.art .celebrate {
-        font-size: 2rem !important;
+    div.art .celebrate p {
+        font-size: 1.3rem !important;
         margin-bottom: .5rem !important;
     }
     .intro h1 {
         margin-top: 1.5rem !important;
-        font-size: 1.5rem !important;
     }
     .intro .info p {
-        font-size: .9rem !important;
+        font-size: 1rem !important;
         margin-bottom: unset;
     }
     .navbar .navbar-brand {
         display: none;
+    }
+    h1 {
+        font-size: 2rem !important; 
     }
     .footer {
         justify-content: center;
@@ -95,8 +109,21 @@ div.art .celebrate {
 }
 .intro h1 {
     font-size: 4rem;
-    margin-top: 8rem;
+    margin-top: 4rem;
+    color: var(--medium-green);
 }
+.info-card {
+    background: var(--background);
+    height: fit-content;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 7px #777;
+}
+
+.parking-shuttle img {
+    max-width: 90%;
+}
+
+
 .footer {
     background-color: #f3f2d3;
 }

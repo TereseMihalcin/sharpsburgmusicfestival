@@ -1,8 +1,8 @@
 ---
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/global.css';
-import Sched from '../components/schedule.astro';
 import Navigation from '../components/navigation.astro';
+import ParkingMap from '../assets/parkingmap.png';
 ---
 <html lang="en">
 	<head>
@@ -13,8 +13,14 @@ import Navigation from '../components/navigation.astro';
 		<meta name="generator" content={Astro.generator} />
 		<title>Sharpsburg Summer Jam</title>
 	</head>
-    <body>
+    <body class="parking-shuttle">
         <Navigation />
+		<div class="text-center mt-5">
+			<h1 class="mb-4">Parking and Shuttle Map</h1>
+			<img class="mb-4" src={ParkingMap.src} alt="Sharpsburg Summer Jam Parking Map">
+			<a href="/ParkingandShuttleMap.pdf" target="_blank"><p>View and Download pdf</p></a>
+		</div>
+
         <script>
 			import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 		</script>
