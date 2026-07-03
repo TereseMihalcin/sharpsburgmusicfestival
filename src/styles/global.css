@@ -91,7 +91,7 @@ div.art {
         font-size: 2.5rem !important;
     }
     .intro .info p {
-        font-size: 1.4rem !important;
+        font-size: 1.3rem !important;
         margin-bottom: unset;
     }
     .navbar .navbar-brand {
@@ -111,6 +111,10 @@ div.art .celebrate {
 .intro {
     /* padding-top: 8rem; */
 }
+.title {
+    background: white; 
+    margin-bottom: -10px;
+}
 .title h1 {
     font-size: 4rem;
     margin-top: 4rem;
@@ -126,8 +130,19 @@ div.art .celebrate {
 .parking-shuttle img {
     max-width: 90%;
 }
+.schedule {
+    max-width: 600px;
+}
 
-
+.fooddrink {
+    background: var(--light-teal);
+}
+.fooddrink .row > div {
+    width: fit-content;
+}
+.fooddrink .row ul {
+    font-family: 'Special Gothic Condensed One', sans-serif;
+}
 .footer {
     background-color: #f3f2d3;
 }
