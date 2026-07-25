@@ -22,9 +22,16 @@ h1, h2, h3, h4, h5 {
 h1 {
     font-size: 3.0rem;
 }
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    background-color: var(--light-teal) !important;
+}
 .navbar-brand {
     font-family: "Candal", sans-serif;
     color: var(--medium-green);
+}
+.nav-item.special a {
+    color: var(--dark-green);
+    font-weight: bold;
 }
 @media (max-width: 574px) {
     .schedule .row > .card {
@@ -102,6 +109,9 @@ div.art {
     }
     .footer {
         justify-content: center;
+    }   
+    .card .card-text {
+        font-size: .9rem;
     }
 }
 div.art .celebrate {
