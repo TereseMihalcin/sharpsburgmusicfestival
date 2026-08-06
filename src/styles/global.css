@@ -44,10 +44,17 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
     box-shadow: 2px 2px 7px #777;
     padding: 0;
 }
+.card:hover a {
+  text-decoration: underline;
+}
 .card .card-body {
     padding: 0;
     display: flex;
     align-items: center;
+}
+.card a {
+    text-decoration: none;
+    color: black;
 }
 .card.acoustic {
     position: relative;
