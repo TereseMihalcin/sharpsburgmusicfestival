@@ -119,6 +119,8 @@ div.art {
     .card .card-text {
         font-size: .9rem;
     }
+}
+@media (max-width: 984px) {
     .sched {
         flex-direction: column;
         gap: 2rem;
@@ -126,10 +128,10 @@ div.art {
      .sched .sched-obj {
         order: 1;
     }
-         .sched .art-obj {
+     .sched .art-obj {
         order: 2;
     }
-         .sched .winner-obj {
+    .sched .winner-obj {
         order: 3;
     }
 }
