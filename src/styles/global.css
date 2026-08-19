@@ -96,13 +96,12 @@ div.art {
     div.art .celebrate p {
         font-size: 1.3rem !important;
         margin-bottom: .5rem !important;
+        background-color: white;
+        box-shadow: 0 0 30px 30px white;
     }
-    .title {
-        padding-top: 0.5rem !important;
-    }
-    .title h1 {
-        margin-top: unset !important;
-        font-size: 2.5rem !important;
+    h1.title {
+        margin-top: 1rem !important;
+        font-size: 1.5rem !important;
     }
     .intro .info p {
         font-size: 1.3rem !important;
@@ -120,20 +119,36 @@ div.art {
     .card .card-text {
         font-size: .9rem;
     }
+    .sched {
+        flex-direction: column;
+        gap: 2rem;
+    }
+     .sched .sched-obj {
+        order: 1;
+    }
+         .sched .art-obj {
+        order: 2;
+    }
+         .sched .winner-obj {
+        order: 3;
+    }
 }
 div.art .celebrate {
     margin-bottom: 1rem;
     color: #9bcd03;
+    background-color: white;
+    box-shadow: 0 0 30px 30px white;
 }
 .intro {
     /* padding-top: 8rem; */
+    background-color: white;
+    box-shadow: 0 0 30px 40px white;
 }
 .title {
-    background: white; 
-    margin-bottom: -10px;
+    background: white;
 }
-.title h1 {
-    font-size: 4rem;
+h1.title {
+    font-size: 3.5rem;
     margin-top: 4rem;
     color: var(--medium-green);
 }
@@ -160,10 +175,7 @@ div.art .celebrate {
 .fooddrink .row ul {
     font-family: 'Special Gothic Condensed One', sans-serif;
 }
-.footer {
-    background-color: #f3f2d3;
-}
-.footer img {
-    padding: 1rem;
+.sched img {
     max-width: 300px;
+    filter: drop-shadow(2px 2px 7px #777);
 }
