@@ -104,7 +104,7 @@ div.art {
         font-size: 1.5rem !important;
     }
     .intro .info p {
-        font-size: 1.3rem !important;
+        font-size: 1.1rem !important;
         margin-bottom: unset;
     }
     .navbar .navbar-brand {
@@ -180,4 +180,17 @@ h1.title {
 .sched img {
     max-width: 300px;
     filter: drop-shadow(2px 2px 7px #777);
+}
+
+/* sponsors */
+.sponsors {
+    background: white;
+    padding-bottom: 5rem;
+}
+.divider {
+  background-color: white;
+  text-align: center;
+}
+.divider svg {
+  max-width: 1000px;
 }
