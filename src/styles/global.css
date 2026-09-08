@@ -80,7 +80,7 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
 div.art {
     background-image: url('../assets/Sharpsburg4.png');
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: bottom;
     background-size: cover;
     height: 1100px;
     display: flex;
@@ -136,10 +136,9 @@ div.art {
     }
 }
 div.art .celebrate {
-    margin-bottom: 1rem;
+    margin-bottom: 0rem;
     color: #9bcd03;
     background-color: white;
-    box-shadow: 0 0 30px 30px white;
 }
 .intro {
     /* padding-top: 8rem; */
