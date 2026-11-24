@@ -1,0 +1,25 @@
+---
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '../styles/global.css';
+import Navigation from '../components/navigation.astro';
+import Video from '../components/video.astro';
+---
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="icon" href="/favicon.ico" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Sharpsburg Summer Jam</title>
+	</head>
+    <body class="video-page">
+        <Navigation />
+		<h1 class="text-center pt-5 mb-5">The 2026 Sharpsburg Summer Jam!</h1>
+        <Video />
+
+        <script>
+			import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+		</script>
+    </body>
+</html>

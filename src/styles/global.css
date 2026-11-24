@@ -193,3 +193,8 @@ h1.title {
 .divider svg {
   max-width: 1000px;
 }
+
+.video-home {
+    background: var(--light-teal);
+    padding-bottom: 5rem;
+}
